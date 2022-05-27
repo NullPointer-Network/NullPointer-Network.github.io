@@ -145,6 +145,14 @@ jQuery(document).ready(function( $ ) {
     responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
     }
   });
+  
+  // Testimonials carousel (uses the Owl Carousel library)
+  $(".team-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 } }
+  });
 
   //Google Map
   var get_latitude = $('#google-map').data('latitude');
