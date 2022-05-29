@@ -151,7 +151,7 @@ jQuery(document).ready(function( $ ) {
     autoplay: true,
     dots: true,
     loop: true,
-    responsive: { 0: { items: 1 }, 300: { items: 2 }, 500: { items: 3 }, 900: { items: 4 } }
+    responsive: { 0: { items: 1 }, 300: { items: 2 }, 800: { items: 3 }, 1100: { items: 4 } }
   });
 
   //Google Map
