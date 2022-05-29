@@ -146,12 +146,12 @@ jQuery(document).ready(function( $ ) {
     }
   });
   
-  // Testimonials carousel (uses the Owl Carousel library)
+  // Team carousel (uses the Owl Carousel library)
   $(".team-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
-    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 } }
+    responsive: { 0: { items: 1 }, 300: { items: 2 }, 900: { items: 3 }, 1100: { items: 4 } }
   });
 
   //Google Map
